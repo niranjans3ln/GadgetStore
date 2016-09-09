@@ -1,0 +1,59 @@
+.add-bar {
+  background-color: coral;
+  padding: 5 10;
+}
+/* #CB1D00; */
+.add-bar Image {
+  height: 15;
+  vertical-align: center;
+  margin-left: 10;
+  margin-right: 5;
+}
+.header-list-page {
+  color: black;
+  font-size: 33;
+  align-content: center;
+  background-color: coral;
+  font-weight: bold;
+}
+.header-of-list {
+  font-size: 23;
+}
+TextField {
+  color: white;
+}
+ListView {
+  background-color: transparent;
+  opacity: 0;
+}
+.visible {
+  animation-name: show;
+  animation-duration: 1s;
+}
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.container {
+  background-color: white;
+  margin-top: 1;
+}
+.tap-target {
+  padding-top: 13;
+  padding-bottom: 13;
+  padding-left: 16;
+}
+.check-box {
+  margin-right: 10;
+  height: 20;
+}
+.delete-container {
+  padding: 10 15;
+  vertical-align: middle;
+}
+.delete-container StackLayout {
+  padding: 5;
+}
+.delete-container Image {
+  height: 20;
+}
